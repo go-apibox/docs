@@ -9,7 +9,7 @@ API日志记录
 
 请求：
 
-	GET /?api_action=Test.Param&User={%22Username%22:%22hilyjiang%22} HTTP/1.1
+	GET /?api_action=Test.Param&User=hilyjiang HTTP/1.1
 	Host: 192.168.122.120:8080
 	User-Agent: Go 1.1 package http
 	Connection: close
