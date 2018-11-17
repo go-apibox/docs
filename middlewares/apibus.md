@@ -69,9 +69,9 @@ API总线
 		"fmt"
 		"os"
 	
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apibus"
-		"git.quyun.com/apibox/apiproxy"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/apibus"
+		"github.com/go-apibox/apiproxy"
 	)
 	
 	func main() {

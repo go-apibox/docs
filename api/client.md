@@ -1,7 +1,7 @@
 客户端
 ======
 
-使用API客户端必须引入 `git.quyun.com/apibox/apiclient`。
+使用API客户端必须引入 `github.com/go-apibox/apiclient`。
 
 ## 接口参考
 
@@ -81,7 +81,7 @@
 		"fmt"
 		"net/url"
 	
-		"git.quyun.com/apibox/apiclient"
+		"github.com/go-apibox/apiclient"
 	)
 	
 	func main() {

@@ -70,8 +70,8 @@ API Session机制，是验证调用者身份的一种手段，是通过对请求
 	import (
 		"os"
 	
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apisession"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/apisession"
 	)
 	
 	func main() {
@@ -96,8 +96,8 @@ API Session机制，是验证调用者身份的一种手段，是通过对请求
 	package main
 
 	import (
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/utils"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/utils"
 	)
 	
 	func LoginAction(c *api.Context) interface{} {

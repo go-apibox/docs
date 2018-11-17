@@ -130,7 +130,7 @@ APIBox 实现了一个 `Params` 类型，用于对 HTTP 请求参数进行验证
 	
 	import (
 		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/filter"
+		"github.com/go-apibox/filter"
 	)
 	
 	func TestParamAction(c *api.Context) interface{} {
@@ -184,8 +184,8 @@ APIBox 实现了一个 `Params` 类型，用于对 HTTP 请求参数进行验证
 	package main
 
 	import (
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/filter"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/filter"
 	)
 	
 	func TestParamAction(c *api.Context) interface{} {
@@ -243,8 +243,8 @@ APIBox 实现了一个 `Params` 类型，用于对 HTTP 请求参数进行验证
 	package main
 	
 	import (
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/filter"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/filter"
 	)
 	
 	type User struct {
@@ -286,8 +286,8 @@ APIBox 实现了一个 `Params` 类型，用于对 HTTP 请求参数进行验证
 	package main
 	
 	import (
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/filter"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/filter"
 	)
 	
 	func TestParamAction(c *api.Context) interface{} {

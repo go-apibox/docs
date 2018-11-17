@@ -36,7 +36,7 @@ APIBox 根据请求参数中的 `api_action` 来进行路由，路由规则定�
 	package main
 	
 	import (
-		"git.quyun.com/apibox/api"
+		"github.com/go-apibox/api"
 	)
 	
 	var apiRoutes = []*api.Route{
@@ -51,7 +51,7 @@ APIBox 根据请求参数中的 `api_action` 来进行路由，路由规则定�
     import (
     	"os"
     
-    	"git.quyun.com/apibox/api"
+    	"github.com/go-apibox/api"
     )
     
     func main() {

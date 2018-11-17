@@ -55,9 +55,9 @@ API初始化
 		"fmt"
 		"os"
 	
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apiinit"
-		"git.quyun.com/apibox/apisign"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/apiinit"
+		"github.com/go-apibox/apisign"
 	)
 	
 	func main() {

@@ -88,8 +88,8 @@ API 验证码
     import (
     	"os"
     
-    	"git.quyun.com/apibox/api"
-    	"git.quyun.com/apibox/apicaptcha"
+    	"github.com/go-apibox/api"
+    	"github.com/go-apibox/apicaptcha"
     )
     
     func main() {

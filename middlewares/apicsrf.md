@@ -84,9 +84,9 @@ CSRF 防护功能的实施，需要前后端的一起配合才能实现，主要
     import (
     	"os"
     
-    	"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apisession"
-    	"git.quyun.com/apibox/apicsrf"
+    	"github.com/go-apibox/api"
+		"github.com/go-apibox/apisession"
+    	"github.com/go-apibox/apicsrf"
     )
     
     func main() {
@@ -117,8 +117,8 @@ CSRF 防护功能的实施，需要前后端的一起配合才能实现，主要
 	package main
 	
 	import (
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/utils"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/utils"
 	)
 	
 	func LoginAction(c *api.Context) interface{} {

@@ -13,16 +13,16 @@
 
 APIBox 实现了以下中间件：
 
- - API签名验证：git.quyun.com/apibox/apisign
- - API重攻击防护：git.quyun.com/apibox/apinonce
- - API日志记录：git.quyun.com/apibox/apilog
- - API幂等性：git.quyun.com/apibox/apitoken
- - API代理：git.quyun.com/apibox/apiproxy
- - API Session 验证：git.quyun.com/apibox/apisession
- - API CSRF 防护：git.quyun.com/apibox/apicsrf
- - API总线：git.quyun.com/apibox/apibus
- - API初始化：git.quyun.com/apibox/apiinit
- - API连线检测：git.quyun.com/apibox/apiping
+ - API签名验证：github.com/go-apibox/apisign
+ - API重攻击防护：github.com/go-apibox/apinonce
+ - API日志记录：github.com/go-apibox/apilog
+ - API幂等性：github.com/go-apibox/apitoken
+ - API代理：github.com/go-apibox/apiproxy
+ - API Session 验证：github.com/go-apibox/apisession
+ - API CSRF 防护：github.com/go-apibox/apicsrf
+ - API总线：github.com/go-apibox/apibus
+ - API初始化：github.com/go-apibox/apiinit
+ - API连线检测：github.com/go-apibox/apiping
 
 当中间件一同使用时，需要注意执行顺序：
 

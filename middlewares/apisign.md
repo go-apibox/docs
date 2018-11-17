@@ -124,8 +124,8 @@ API调用签名机制，是验证调用者身份的一种手段，是通过对�
 	import (
 		"os"
 	
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apisign"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/apisign"
 	)
 	
 	func main() {

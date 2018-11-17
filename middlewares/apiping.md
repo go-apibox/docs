@@ -48,8 +48,8 @@ API连线检测
 		"fmt"
 		"os"
 	
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apiping"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/apiping"
 	)
 	
 	func main() {

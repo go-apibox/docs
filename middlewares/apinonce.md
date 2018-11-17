@@ -84,9 +84,9 @@ API重攻击防护
     import (
     	"os"
     
-    	"git.quyun.com/apibox/api"
-    	"git.quyun.com/apibox/apinonce"
-    	"git.quyun.com/apibox/apisign"
+    	"github.com/go-apibox/api"
+    	"github.com/go-apibox/apinonce"
+    	"github.com/go-apibox/apisign"
     )
     
     func main() {

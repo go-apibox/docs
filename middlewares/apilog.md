@@ -182,8 +182,8 @@ API日志记录
     import (
     	"os"
     
-    	"git.quyun.com/apibox/api"
-    	"git.quyun.com/apibox/apilog"
+    	"github.com/go-apibox/api"
+    	"github.com/go-apibox/apilog"
     )
     
     func main() {

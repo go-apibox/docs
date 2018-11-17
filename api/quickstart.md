@@ -19,7 +19,7 @@
     	"fmt"
     	"os"
     
-    	"git.quyun.com/apibox/api"
+    	"github.com/go-apibox/api"
     )
     
     func main() {
@@ -56,7 +56,7 @@ app.go 的 `app.Run` 函数的参数 apiRoutes 为 API 路由设置，在 routes
 	package main
 	
 	import (
-		"git.quyun.com/apibox/api"
+		"github.com/go-apibox/api"
 	)
 	
 	var apiRoutes = []*api.Route{
@@ -81,7 +81,7 @@ Route 结构的三个成员分别是：{API接口名称，API接口要调用的�
 	package main
 	
 	import (
-		"git.quyun.com/apibox/api"
+		"github.com/go-apibox/api"
 	)
 	
 	func TestOkAction(c *api.Context) interface{} {

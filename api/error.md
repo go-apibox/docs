@@ -8,7 +8,7 @@
     package main
     
     import (
-    	"git.quyun.com/apibox/api"
+    	"github.com/go-apibox/api"
     )
     
     func TestErrorAction(c *api.Context) interface{} {

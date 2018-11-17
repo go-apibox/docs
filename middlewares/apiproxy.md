@@ -137,8 +137,8 @@ apiproxy 通过检测请求参数中的参数值来决定将请求代理到某�
 	import (
 		"os"
 	
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apiproxy"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/apiproxy"
 	)
 	
 	func main() {

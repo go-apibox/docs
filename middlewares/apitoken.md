@@ -108,8 +108,8 @@ API幂等性
 	import (
 		"os"
 	
-		"git.quyun.com/apibox/api"
-		"git.quyun.com/apibox/apitoken"
+		"github.com/go-apibox/api"
+		"github.com/go-apibox/apitoken"
 	)
 	
 	func main() {

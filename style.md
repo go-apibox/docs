@@ -32,7 +32,10 @@ API风格
     {
         "ACTION": "Action.Name",
         "CODE": "ActionNotExist",
-        "MESSAGE": "Action does not exsit!"
+        "MESSAGE": "Action does not exsit!",
+        "DATA": {
+            …
+        }
     }
 
 响应结果中各字段的含义：
